@@ -1,0 +1,19 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+              fracture|
+              stamp|
+              glasses|
+              suppo|
+              injection|
+              plaster|
+              lens|
+              room|office|
+              tear
+              ;
+
+
+public <cats> = <cat>+;

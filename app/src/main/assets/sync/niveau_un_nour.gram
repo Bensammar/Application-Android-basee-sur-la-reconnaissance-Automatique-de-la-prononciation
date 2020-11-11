@@ -1,0 +1,32 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+              crocodile|
+          milk |
+          pizza |
+          orange |
+          bread |
+           carrot|
+           salt |
+           tomato
+           onion |
+           olive|
+           bean|
+           pepper|
+           hamburger|
+           pineapple|
+           cheese|
+           potato|
+           strawberry|
+           water|
+           banana|
+           egg|
+           flour|
+           grapes|rice|butter|
+           sugar;
+
+
+public <cats> = <cat>+;

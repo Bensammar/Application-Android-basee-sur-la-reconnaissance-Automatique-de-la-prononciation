@@ -1,0 +1,15 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+
+          designer|
+          guitare|
+          violon|
+          piano|
+          batterie|trompette
+          ;
+
+public <cats> = <cat>+;

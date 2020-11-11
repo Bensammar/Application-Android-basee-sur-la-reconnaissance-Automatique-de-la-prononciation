@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/opt1_obj"
+    android:title="@string/niv1"></item>
+
+    <item
+        android:id="@+id/opt2_obj"
+        android:title="@string/niv2"></item>
+    <item
+        android:id="@+id/opt3_obj"
+        android:title="@string/niv3"></item>
+    <item
+        android:id="@+id/opt4_obj"
+        android:title="@string/niv4"></item>
+    <item
+        android:id="@+id/opt5_obj"
+        android:title="@string/niv5"></item>
+</menu>

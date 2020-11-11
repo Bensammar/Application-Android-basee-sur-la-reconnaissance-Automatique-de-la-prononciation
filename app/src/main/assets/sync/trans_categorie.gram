@@ -1,0 +1,32 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+car|
+bus|
+train|
+boat|
+airplane|
+bike|
+motorbike|
+streetcar|
+airport|
+truck|
+wagon|
+ship|
+tractor|
+canoe|
+tank |
+parachute|
+scooter|
+coach|
+zeppelin|
+metro|
+barge|
+van|
+ticket|
+driver|
+helicopter;
+
+public <cats> = <cat>+;

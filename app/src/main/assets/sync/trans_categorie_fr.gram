@@ -1,0 +1,33 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+           voiture|
+           bus|
+           train|
+           bateau|
+           avion|
+           velo|
+           moto|
+           tramway|
+           aéroport|
+           camion|
+           wagon|
+           voilier|
+           tracteur|
+           pirogue|
+           char|
+           parachute|
+           trottinette|
+           carrosse|
+           zeppelin|
+           métro|
+           péniche|
+           fourgon|
+           billet|
+           chauffeur|
+           hélicoptère;
+
+public <cats> = <cat>+;

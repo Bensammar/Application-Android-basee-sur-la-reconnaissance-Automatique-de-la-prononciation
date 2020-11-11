@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =horloge|
+       ascenseur|
+       automobile|clavier|
+       souris|climatiseurs|frigo|mixeur|informatique|réfrigérateur|écran|montre
+    ;
+
+
+
+public <cats> = <cat>+;

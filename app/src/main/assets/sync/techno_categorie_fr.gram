@@ -1,0 +1,15 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =téléphone|
+       télévision|
+       parleur|
+       cuisinier|
+       robot|modem|
+       imprimante|application|écran|démo
+    ;
+
+
+
+public <cats> = <cat>+;

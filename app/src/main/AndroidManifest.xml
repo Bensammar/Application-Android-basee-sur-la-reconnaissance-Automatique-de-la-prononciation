@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/leraning_icon"
+        android:label="@string/application"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_activite">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".startActivity" />
+        <activity android:name=".MainActivity4">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pocket2" />
+        <activity android:name=".Pocket3" />
+        <activity android:name=".Pocket4" />
+        <activity android:name=".Pocket5" />
+        <activity android:name=".Slide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivitychat" />
+        <activity android:name=".enter_ip_add">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".monkey" />
+        <activity android:name=".sheep" />
+        <activity android:name=".Sign_up"></activity>
+        <activity android:name=".demarage"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".statistique"></activity>
+        <activity android:name=".niveaudeux"></activity>
+        <activity android:name=".choisir_niveaux_dif">
+        </activity>
+        <activity android:name=".niveautrois"></activity>
+        <activity android:name=".niveauquatre"></activity>
+        <activity android:name=".niveaucinq"></activity>
+        <activity android:name=".MainActivitymultijoueur"></activity>
+        <activity android:name=".enter_ip_add_chat"></activity>
+        <activity android:name=".Slide2"></activity>
+        <activity android:name=".Slide3"></activity>
+        <activity android:name=".niveauunnour"></activity>
+        <activity android:name=".niveaudeuxnour"></activity>
+        <activity android:name=".niveautroisnour"></activity>
+        <activity android:name=".niveauquatrenour"></activity>
+        <activity android:name=".niveaucinqenour"></activity>
+        <activity android:name=".niveauunart"></activity>
+        <activity android:name=".niveaudeuxart"></activity>
+        <activity android:name=".niveautroisart"></activity>
+        <activity android:name=".niveauquatreart"></activity>
+        <activity android:name=".niveaucinqart"></activity>
+        <activity android:name=".Slide_for_sport"></activity>
+        <activity android:name=".Slide_for_trans"></activity>
+        <activity android:name=".Slide_for_revision"></activity>
+        <activity android:name=".Slide_for_techno"></activity>
+        <activity android:name=".niveau1_for_sport"></activity>
+        <activity android:name=".niveau2_for_sport"></activity>
+        <activity android:name=".niveau3_for_sport"></activity>
+        <activity android:name=".niveau4_for_sport"></activity>
+        <activity android:name=".niveau5_for_sport"></activity>
+        <activity android:name=".niveau1_for_trans"></activity>
+        <activity android:name=".niveau2_for_trans"></activity>
+        <activity android:name=".niveau3_for_trans"></activity>
+        <activity android:name=".niveau4_for_trans"></activity>
+        <activity android:name=".niveau5_for_trans"></activity>
+        <activity android:name=".niveau1_for_medecine"></activity>
+        <activity android:name=".Slide_for_geo"></activity>
+        <activity android:name=".Slide_for_object"></activity>
+        <activity android:name=".Slide_for_tuto"></activity>
+        <activity android:name=".Slide_for_medecine"></activity>
+        <activity android:name=".niveau2_for_medecine"></activity>
+        <activity android:name=".niveau3_for_medecine"></activity>
+        <activity android:name=".niveau4_for_medecin"></activity>
+        <activity android:name=".niveau5_for_medecin"></activity>
+        <activity android:name=".niveau1_for_techno"></activity>
+        <activity android:name=".niveau2_for_techno"></activity>
+        <activity android:name=".niveau3_for_techno"></activity>
+        <activity android:name=".niveau4_for_techno"></activity>
+        <activity android:name=".niveau5_for_techno"></activity>
+        <activity android:name=".niveau1_for_revision"></activity>
+        <activity android:name=".niveau2_for_revision"></activity>
+        <activity android:name=".niveau3_for_revision"></activity>
+        <activity android:name=".niveau4_for_revision"></activity>
+        <activity android:name=".niveau5_for_revision"></activity>
+        <activity android:name=".niveau1_for_geo"></activity>
+        <activity android:name=".niveau2_for_geo"></activity>
+        <activity android:name=".niveau3_for_geo"></activity>
+        <activity android:name=".niveau4_for_geo"></activity>
+        <activity android:name=".niveau5_for_geo"></activity>
+        <activity android:name=".niveau1_for_object"></activity>
+        <activity android:name=".niveau2_for_object"></activity>
+        <activity android:name=".niveau3_for_object"></activity>
+        <activity android:name=".niveau4_for_object"></activity>
+        <activity android:name=".niveau5_for_object"></activity>
+    </application>
+
+</manifest>

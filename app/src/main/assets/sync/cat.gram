@@ -1,0 +1,15 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+              cat|
+          reveles |
+          reveling |
+          revell |
+          revelle |
+          cut|
+          cute;
+
+public <cats> = <cat>+;

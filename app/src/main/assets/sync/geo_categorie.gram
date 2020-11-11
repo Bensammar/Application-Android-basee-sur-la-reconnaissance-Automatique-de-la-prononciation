@@ -1,0 +1,33 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+algeria|
+french|
+spain|
+canada|
+italy|
+brazil|
+tunisia|
+bolivia|
+india|
+china|
+switzerland|
+morocco|
+portugal|
+belgium|
+germany|
+egypt|
+england|
+mexico|
+japan|
+australia|
+argentina|
+uruguay|
+colombia|
+iceland|
+costa-rica
+;
+
+public <cats> = <cat>+;

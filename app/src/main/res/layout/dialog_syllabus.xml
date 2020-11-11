@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rounded_for_dialog">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_for_dialog"
+        android:paddingBottom="16dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/credit1"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:gravity="left"
+            android:text=" cat  "
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/a10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/credit2"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/credit1"
+            android:textColor="#000"
+            android:text="  dog "
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/credit3"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/credit2"
+            android:textColor="#000"
+            android:text="  lion "
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/credit4"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/credit3"
+            android:textColor="#000"
+            android:text="  horse "
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/credit5"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/credit4"
+            android:textColor="#000"
+            android:text="  cow "
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVcrd"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:text="5"
+            android:layout_below="@+id/credit1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/a10"/>
+
+        <TextView
+            android:id="@+id/TVcrd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TVcrd"
+            android:layout_alignBottom="@+id/TVcrd"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/credit1"
+            android:layout_toRightOf="@+id/credit1"
+            android:text="5"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TVcrd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TVcrd2"
+            android:layout_alignBottom="@+id/TVcrd2"
+            android:layout_toLeftOf="@+id/credit4"
+            android:layout_toStartOf="@+id/credit4"
+            android:text="5"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TVcrd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/desc"
+            android:layout_toLeftOf="@+id/credit5"
+            android:layout_toStartOf="@+id/credit5"
+            android:text="5"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TVcrd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TVcrd4"
+            android:layout_alignBottom="@+id/TVcrd4"
+            android:layout_alignEnd="@+id/credit5"
+            android:layout_alignRight="@+id/credit5"
+            android:text="5"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:gravity="left"
+            android:text="Description : "
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/a10"
+            android:layout_below="@+id/TVcrd"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVdesc"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:gravity="left"
+            android:text=""
+            android:layout_below="@+id/desc"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/a10"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+           android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/a10"
+            android:id="@+id/repeatDialog"
+            android:layout_below="@id/TVdesc"
+            android:text="Repeat"
+            android:textSize="20sp"
+            android:background="@drawable/cost_button_2"
+            android:textColor="#ffffff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/a10"
+            android:id="@+id/nextDialog"
+            android:layout_below="@id/TVdesc"
+            android:text="Next"
+            android:textSize="20sp"
+            android:background="@drawable/cost_button"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+</RelativeLayout>

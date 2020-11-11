@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.myapplication.demarage"
+    android:background="@drawable/startdor">
+
+
+    <Button
+        android:id="@+id/categ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/multijoueur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cost_start"
+        android:text="start"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/statistique"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_for_prev"
+        android:text="statistic"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/multijoueur"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/cost_button_5"
+        android:text="multi-player"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multijoueur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cost_button_5"
+        android:text="chat"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/np"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@+id/categ"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="animation-w44-h44.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/np2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignTop="@+id/np"
+        android:layout_marginTop="38dp"
+        android:layout_toLeftOf="@+id/categ"
+        android:layout_toStartOf="@+id/categ"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="animation-w44-h44.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/np3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignTop="@+id/np2"
+        android:layout_toEndOf="@+id/categ"
+        android:layout_toRightOf="@+id/categ"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="animation-w44-h44.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_height="100dp"
+        android:layout_width="140dp"
+        android:layout_below="@+id/statistique"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/a10"
+        app:lottie_fileName="animation-w1280-h720.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          pomme_de_terre|
+          hamburger |
+          ananas|
+          olive|
+          tomate|
+          oignon|
+          haricot|
+          ananas
+          ;
+
+public <cats> = <cat>+;

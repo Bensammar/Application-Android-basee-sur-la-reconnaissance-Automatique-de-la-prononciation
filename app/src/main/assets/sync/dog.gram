@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar dogs;
+
+<dog> = zero  |
+          six   |
+          seven |
+          eight |
+          nine |
+          dog |
+          cat;
+
+public <dogs> = <dog>+;

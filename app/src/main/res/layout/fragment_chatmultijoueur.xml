@@ -1,0 +1,85 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/nbadelfelmulti"
+    >
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messages"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="speak"
+        android:background="@drawable/cost_button_3"
+        android:layout_marginLeft="130dp"
+
+        />
+    <Button
+        android:id="@+id/baddal"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="next"
+        android:background="@drawable/cost_button_5"
+        android:layout_marginLeft="130dp"
+
+        />
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_button"
+            android:contentDescription="Send"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="pret"
+            android:background="@drawable/cost_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/finish"
+            android:contentDescription="Send"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="fin"
+            android:background="@drawable/cost_button_2"/>
+
+
+
+
+
+</RelativeLayout>

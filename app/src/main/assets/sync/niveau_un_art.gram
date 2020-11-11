@@ -1,0 +1,22 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+           film|
+           draw |
+           filmmaker |
+           cartoons|
+           actor|
+           musician|
+           museum|
+           cinema|
+           camera|
+           singer|designer|
+           modeling|opera|statue|theater|
+           guitarist|violinist|pianist|writer|brush
+           ;
+
+
+public <cats> = <cat>+;

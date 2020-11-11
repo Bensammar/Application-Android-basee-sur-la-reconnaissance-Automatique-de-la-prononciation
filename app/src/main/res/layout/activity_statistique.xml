@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.myapplication.statistique"
+    android:background="@drawable/btbt">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imganim"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/animals" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgsport"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/a15"
+                android:src="@drawable/sport" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgtrans"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="@dimen/a15"
+                android:src="@drawable/transport" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgfood"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/imgmedecine"
+        android:layout_alignLeft="@+id/imganim"
+        android:layout_alignStart="@+id/imganim"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/nouri" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgmedecine"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/a15"
+                android:src="@drawable/medecin" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgobject"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imggeo"
+        android:layout_alignStart="@+id/imggeo"
+        android:layout_alignTop="@+id/imgmedecine"
+        android:src="@drawable/object" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgart"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imgfood"
+        android:layout_alignStart="@+id/imgfood"
+        android:layout_below="@+id/imgfood"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/art" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imggeo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/a15"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/geo" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgtech"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/a15"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/technologie" />
+
+</RelativeLayout>

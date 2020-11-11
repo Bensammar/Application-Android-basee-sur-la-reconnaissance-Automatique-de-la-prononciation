@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.myapplication.login_activite"
+    android:background="@drawable/main_background">
+
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splash_new" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/layoutuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/R1"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/ETlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/for_edittext"
+            android:hint="Username"
+            android:paddingLeft="@dimen/a10"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/trans"
+            android:layout_marginLeft="25dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/layoutpass"
+        android:layout_below="@+id/layoutuser"
+        >
+        <EditText
+            android:id="@+id/ETpass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/for_edittext"
+            android:hint="Password"
+
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/a10"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/trans"
+            android:layout_marginLeft="25dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="57dp"
+            android:background="@drawable/login_buttons"
+            android:text="Login"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/creer_compte"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ok"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pass_buttons"
+            android:text="Sign_up" />
+    </RelativeLayout>
+
+</RelativeLayout>

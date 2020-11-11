@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.myapplication.login_activite"
+    android:background="@drawable/main_background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_new" />
+
+    <TextView
+        android:id="@+id/etoile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_insc"
+        android:layout_alignBottom="@+id/login_insc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/etoile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pass_insc"
+        android:visibility="gone"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/etoile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pass_insc"
+        android:layout_alignBottom="@+id/pass_insc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/login_insc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:hint="Username"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff"
+        android:paddingLeft="@dimen/a10"
+        android:background="@drawable/for_edittext"
+        android:textColorHint="@color/trans"
+        android:layout_marginRight="@dimen/a10"
+        android:layout_marginLeft="@dimen/a10"/>
+
+    <EditText
+        android:id="@+id/pass_insc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/login_insc"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:paddingLeft="@dimen/a10"
+        android:background="@drawable/for_edittext"
+        android:textColorHint="@color/trans"
+        android:layout_marginRight="@dimen/a10"
+        android:layout_marginLeft="@dimen/a10"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/pass_conf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:hint="Confirm password"
+        android:ems="100"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/a10"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pass_insc"
+        android:textColor="#ffffff"
+        android:background="@drawable/for_edittext"
+        android:textColorHint="@color/trans"
+        android:layout_marginRight="@dimen/a10"
+        android:layout_marginLeft="@dimen/a10"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_conf"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_buttons"
+        android:text="OK"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

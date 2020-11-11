@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = violin  |
+          guitar|
+          piano|
+          drums|
+          trumpet;
+
+public <digits> = <digit>+;

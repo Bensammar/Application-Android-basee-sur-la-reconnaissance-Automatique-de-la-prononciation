@@ -1,0 +1,37 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+       lit|
+       table|
+       porte|
+       image|
+       escalier|
+
+       chaise|
+       assiette|
+       tasse|
+       boite|
+       toilette|
+
+       stylo|
+       cuillère|
+       couteau|
+       livre|
+       récepteur|
+
+       ciseaux|
+       caillou|
+       crayon|
+       bouteille|
+       verre|
+
+       horloge|
+       gomme|
+       règle|
+       verrou|
+       calculatrice;
+
+public <cats> = <cat>+;

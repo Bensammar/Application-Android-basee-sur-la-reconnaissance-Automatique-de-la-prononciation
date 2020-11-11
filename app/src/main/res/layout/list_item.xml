@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:id="@+id/gogo"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    -
+
+        <RelativeLayout
+            android:id="@+id/itemlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="13dp" />
+
+            <TextView
+                android:id="@+id/titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_marginLeft="15dp"
+                android:textSize="25sp"
+                android:text="dorina"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/titre"
+                android:layout_alignBottom="@+id/titre"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_toLeftOf="@+id/star"
+                android:layout_toStartOf="@+id/star"
+                android:textSize="20sp"
+                android:text="desc" />
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/txdescription"
+                android:layout_marginEnd="21dp"
+                android:layout_marginRight="21dp"
+                app:srcCompat="@drawable/star" />
+
+
+        </RelativeLayout>
+
+</RelativeLayout>
